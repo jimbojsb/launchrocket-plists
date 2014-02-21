@@ -6,16 +6,16 @@
      <string>com.rethinkdb</string>
      <key>ProgramArguments</key>
      <array>
-         <string>#{opt_prefix}/bin/rethinkdb</string>
+         <string>/usr/local/bin/rethinkdb</string>
          <string>-d</string>
-         <string>#{var}/rethinkdb</string>
+         <string>/usr/local/var/rethinkdb</string>
      </array>
      <key>WorkingDirectory</key>
-     <string>#{HOMEBREW_PREFIX}</string>
+     <string>/usr/local</string>
      <key>StandardOutPath</key>
-     <string>#{var}/log/rethinkdb/rethinkdb.log</string>
+     <string>/usr/local/var/log/rethinkdb/rethinkdb.log</string>
      <key>StandardErrorPath</key>
-     <string>#{var}/log/rethinkdb/rethinkdb.log</string>
+     <string>/usr/local/var/log/rethinkdb/rethinkdb.log</string>
      <key>RunAtLoad</key>
      <true/>
      <key>KeepAlive</key>
